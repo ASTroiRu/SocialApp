@@ -1,0 +1,10 @@
+.profile {
+    background: url(../img/bg-menu2.jpg) no-repeat center;
+    background-size: 100%;
+    grid-column: 2/4;
+    grid-row: 2/4;
+  }
+  
+  .profile_content {
+    margin: 25px 0 0 25px;
+  }

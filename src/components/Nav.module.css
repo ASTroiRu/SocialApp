@@ -1,0 +1,30 @@
+.nav {
+  grid-column: 1;
+  grid-row: 2/4;
+  background: url(../img/bg-menu2.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.nav_text {
+  margin: 32px 25px;
+}
+
+.activ {
+  margin: 32px 25px;
+
+}
+
+.nav_text a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+  color: #222222;
+
+}
+
+.activ a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+  color: chartreuse;
+}

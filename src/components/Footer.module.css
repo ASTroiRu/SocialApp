@@ -1,0 +1,11 @@
+.footer {
+  grid-column: 1/4;
+  grid-row: 4/4;
+  background: url(../img/bg-footer.jpg) no-repeat center top;
+}
+
+.logo {
+  margin: 35px 45px;
+  display: flex;
+  justify-content: flex-end;
+}

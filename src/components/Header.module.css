@@ -1,0 +1,13 @@
+.header {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.header {
+  background: url(../img/bg-image.jpg) no-repeat center top;
+}
+
+.logo {
+  margin: 35px 45px;
+  cursor: pointer;
+}
