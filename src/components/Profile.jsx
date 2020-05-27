@@ -1,22 +1,23 @@
 import React from 'react';
+import s from './Profile.module.css';
 
 const Profile = () => {
-    return <div className="profile">
-    <div className="profile_content">
-        <div className="profile_img">profile_img</div>
-        <div className="profile_logo">profile_logo</div>
-        <div className="discription">
-            <div className="name">name</div>
-            <div className="birth_day">birth_day</div>
-            <div className="birth_place">birth_place</div>
-            <div className="edu">edu</div>
-            <div className="site">site</div>
+    return <div className={s.profile}>
+    <div className={s.profile_content}>
+        <div className={s.profile_img}>profile_img</div>
+        <div className={s.profile_logo}>profile_logo</div>
+        <div className={s.discription}>
+            <div className={s.name}>name</div>
+            <div className={s.birth_day}>birth_day</div>
+            <div className={s.birth_place}>birth_place</div>
+            <div className={s.edu}>edu</div>
+            <div className={s.site}>site</div>
         </div>
-        <div className="my_posts">
-            <div className="add_new_post"></div>
-            <div className="post">post1</div>
-            <div className="post">post2</div>
-            <div className="post">post3</div>
+        <div className={s.my_posts}>
+            <div className={s.add_new_post}></div>
+            <div className={s.post}>post1</div>
+            <div className={s.post}>post2</div>
+            <div className={s.post}>post3</div>
         </div>
     </div>
 
