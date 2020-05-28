@@ -11,9 +11,9 @@ const MyPosts = () => {
                     <textarea></textarea>
                     <button type="submit">SEND</button>
                 </div>
-                <Post />
-                <Post />
-                <Post />
+                <Post message='Hello, how are you???' likesCount='15'/>
+                <Post message='My name is Alex' likesCount='17'/>
+                <Post message='It is my first message' likesCount='25'/>
             </div>
         </div>
 
