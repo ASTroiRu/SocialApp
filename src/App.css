@@ -29,4 +29,10 @@ body {
   padding: 0;
   background-color: #e7a158;
 }
+.wrapper-content {
+  background: url(./img/bg-menu2.jpg) no-repeat center;
+    background-size: 100%;
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
 
