@@ -9,11 +9,6 @@
   margin: 32px 25px;
 }
 
-.activ {
-  margin: 32px 25px;
-
-}
-
 .nav_text a {
   text-transform: uppercase;
   text-decoration: none;
@@ -22,7 +17,7 @@
 
 }
 
-.activ a {
+.nav_text a.activ {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 22px;
