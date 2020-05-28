@@ -1,5 +1,5 @@
 .profile {
-    background: url(../img/bg-menu2.jpg) no-repeat center;
+    background: url(./bg-menu2.jpg) no-repeat center;
     background-size: 100%;
     grid-column: 2/4;
     grid-row: 2/4;
