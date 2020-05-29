@@ -7,33 +7,68 @@
   align-items: stretch;
   margin: 10px;
 }
+
 .personsList {
   background: url('./img/bf-menu.jpg') no-repeat center;
-  background-size: 100%;
+  background-size: cover;
   opacity: 0.6;
   border-radius: 10px;
 }
+
+.person {
+  display: flex;
+  margin: 10px;
+}
+
+.user_name {
+  padding-left: 20px;
+  padding-top: 10px;
+  color: black;
+}
+.user_name a {
+  text-decoration: none;
+  color: black;
+}
+.user_name a.activ {
+  color: gold;
+}
+
+.user_logo {
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: aquamarine;
+  border-radius: 50%;
+
+
+}
+
 .messages {
   background: url('./img/bf-menu.jpg') no-repeat center;
-  background-size: 100%;
+  background-size: cover;
   opacity: 0.6;
   border-radius: 10px;
   align-self: bottom;
 }
+
 .messagesHistory {
   display: block;
   margin: 5px;
 }
+
 .messageHistory_in {
   text-align: left;
 }
+
 .messageHistory_out {
   text-align: right;
 }
+
 .sendMessage {
   padding-top: 20px;
   margin: 5px;
 }
+
 .inMessage {
   width: 70%;
   padding: 5px 10px;
@@ -41,6 +76,7 @@
   box-sizing: border-box;
   border-radius: 4px;
 }
+
 button {
   width: 45px;
   height: 45px;

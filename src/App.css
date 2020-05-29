@@ -31,7 +31,7 @@ body {
 }
 .wrapper-content {
   background: url(./img/bg-menu2.jpg) no-repeat center;
-    background-size: 100%;
+    background-size: cover;
     grid-column: 2/4;
     grid-row: 2/4;
 }
