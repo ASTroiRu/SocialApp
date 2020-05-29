@@ -1,5 +1,48 @@
-
-  
-  .dialogs_content {
-    margin: 25px 0 0 25px;
-  }
+.dialogs {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: minmax(auto);
+  grid-gap: 3px;
+  justify-items: stretch;
+  align-items: stretch;
+  margin: 10px;
+}
+.personsList {
+  background: url('./img/bf-menu.jpg') no-repeat center;
+  background-size: 100%;
+  opacity: 0.6;
+  border-radius: 10px;
+}
+.messages {
+  background: url('./img/bf-menu.jpg') no-repeat center;
+  background-size: 100%;
+  opacity: 0.6;
+  border-radius: 10px;
+  align-self: bottom;
+}
+.messagesHistory {
+  display: block;
+  margin: 5px;
+}
+.messageHistory_in {
+  text-align: left;
+}
+.messageHistory_out {
+  text-align: right;
+}
+.sendMessage {
+  padding-top: 20px;
+  margin: 5px;
+}
+.inMessage {
+  width: 70%;
+  padding: 5px 10px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
