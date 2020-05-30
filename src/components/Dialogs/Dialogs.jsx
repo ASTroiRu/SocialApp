@@ -16,19 +16,29 @@ const Person = (props) => {
 }
 
 const MessageHistory = (props) => {
-    let Mtype = 's.messageHistory_' + props.type;
-    return (
-        <div className={s.messagesHistory}>
-            <div className={Mtype}>{props.messageText}</div>
+
+    if (props.type === 'in') {
+        return (
+            <div className={s.messagesHistory}>
+                <div className={s.messageHistory_in}>{props.messageText}</div>
+            </div>
+        );
+    } else {
+return (
+    <div className={s.messagesHistory}>
+            <div className={s.messageHistory_out}>{props.messageText}</div>
         </div>
-    )
+);
+
+    }
 }
+
 
 
 const Dialogs = () => {
     return (
         <div>
-            Dialogs.
+           
             <div className={s.dialogs}>
                 <div className={s.personsList}>
 

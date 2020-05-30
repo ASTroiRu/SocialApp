@@ -6,7 +6,7 @@ import MyPosts from './MyPosts/MyPosts';
 const Profile = () => {
     return (
         < div className = { s.profile } >
-            Profile.
+           
             <div className={s.profile_content}>
                 <MyDiscription />
                 <MyPosts />

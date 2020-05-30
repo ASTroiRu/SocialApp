@@ -1,4 +1,40 @@
+.myProfile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: minmax(auto);
+  grid-gap: 3px;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 10px;
+}
 
-  .profile_content {
-    margin: 25px 0 0 25px;
-  }
+.profile_logo {
+  width: 5cm;
+  height: 7cm;
+  box-sizing: border-box;
+  background-color: #167194;
+  opacity: 0.6;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.discription {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #167194;
+  opacity: 0.6;
+  border-radius: 5px;
+}
+.discriptionText {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-auto-rows: minmax(auto);
+  grid-gap: 3px;
+  justify-items: stretch;
+  align-items: stretch;
+  margin: 10px;
+  line-height: 1.3em;
+  color: black;
+}
