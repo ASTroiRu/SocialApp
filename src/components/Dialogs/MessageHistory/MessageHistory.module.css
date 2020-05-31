@@ -1,0 +1,13 @@
+.messagesHistory {
+  display: block;
+  margin: 5px;
+}
+
+.messageHistory_in {
+  text-align: left;
+}
+
+.messageHistory_out {
+  text-align: right;
+}
+

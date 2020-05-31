@@ -1,0 +1,25 @@
+.person {
+  display: flex;
+  margin: 10px;
+}
+
+.user_name {
+  padding-left: 20px;
+  padding-top: 10px;
+  color: black;
+}
+.user_name a {
+  text-decoration: none;
+  color: black;
+}
+.user_name a.activ {
+  color: gold;
+}
+
+.user_logo {
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
