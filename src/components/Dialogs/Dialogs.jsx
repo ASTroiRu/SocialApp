@@ -4,19 +4,13 @@ import Person from './Person/Person';
 import MessageHistory from './MessageHistory/MessageHistory';
 
 
-
-
-
-
-
-
 const Dialogs = (props) => {
-    let messageElement = props.message.map (m =>  <MessageHistory type={m.type} messageText={m.messageText} />);
-    let dialogsElement = props.dialogs.map (d =>  <Person name={d.name} id={d.id} />);
+    let messageElement = props.state.message.map(m => <MessageHistory type={m.type} messageText={m.messageText} />);
+    let dialogsElement = props.state.dialogs.map(d => <Person name={d.name} id={d.id} />);
 
     return (
         <div>
-           
+
             <div className={s.dialogs}>
                 <div className={s.personsList}>
 
@@ -24,7 +18,7 @@ const Dialogs = (props) => {
 
                 </div>
                 <div className={s.messages}>
-                    
+
                     {messageElement}
 
                     <div className={s.sendMessage}>
