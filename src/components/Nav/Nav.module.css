@@ -23,3 +23,19 @@
   font-size: 22px;
   color: gold;
 }
+
+.myFriends {
+  font-size: 22px;
+  color: #222222;
+  text-align: center;
+
+}
+.myFriendsList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3px;
+  justify-items: stretch;
+  align-items: center;
+  margin: 10px;
+  font-size: 14px;
+}

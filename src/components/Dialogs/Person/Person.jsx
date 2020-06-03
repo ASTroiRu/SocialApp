@@ -9,7 +9,7 @@ const Person = (props) => {
         <div className={s.person}>
             <div className={s.user_logo}></div>
             <div className={s.user_name}>
-                <NavLink to={path}>{props.name}</NavLink>
+                <NavLink to={path} activeClassName={s.activ}>{props.name}</NavLink>
             </div>
          </div>
     )
