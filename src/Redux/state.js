@@ -1,3 +1,6 @@
+import { rerenderTree } from "../render";
+
+
 let state = {
     DialogsPage: {
         message: [
@@ -31,8 +34,18 @@ let state = {
             {id: 6, name: 'Temka'}   
         ]
     }
-
-
 }
+export let addPost = (postMessage) => {
+    let newPost = {
+        id: 4,
+        post: postMessage,
+        likesCount: 0
+    };
+    state.ProfilePage.posts.push(newPost);    
+    rerenderTree(state);
+};
+
+
+
 
 export default state;

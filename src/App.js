@@ -32,7 +32,7 @@ const App = (props) => {
             <Route path='/settings' component={Settings} /> */}
 
            
-            <Route path='/profile' render={ () => <Profile state={props.state.ProfilePage} /> } />
+            <Route path='/profile' render={ () => <Profile state={props.state.ProfilePage} addPost={props.addPost}/> } />
             <Route path='/dialogs' render={ () => <Dialogs state={props.state.DialogsPage} /> } />
             <Route path='/news' render={ () => <News />} />
             <Route path='/music' render={ () => <Music />} />
