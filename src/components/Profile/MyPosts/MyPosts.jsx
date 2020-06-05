@@ -9,15 +9,21 @@ const MyPosts = (props) => {
     let postElement = props.posts.map(p => <Post message={p.post} likesCount={p.likesCount}/>);
     let newPostElement = React.createRef();
     let addPost = () => {
-        let text = newPostElement.current.value;
-        props.addPost(text);
+
+        props.addPost();
+
     };
+    let updateNewPostText = () => {
+        let text = newPostElement.current.value;
+        props.updateNewPostText(text)
+    };
+    
     return (
             <div className={s.my_posts}>
                 
                 {postElement}
                 <div className={s.add_new_post}>
-                        <input className={s.newPost} type="text" ref = {newPostElement} />
+                        <input onChange={updateNewPostText} className={s.newPost} type="text" ref = {newPostElement} value={props.newPostText}/>
                         <button type="submit" onClick = {addPost}>SEND</button>
                 </div>
             </div>
